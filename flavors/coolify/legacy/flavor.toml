@@ -1,0 +1,20 @@
+name = "Legacy"
+summary = "The new Coolify with the look and feel of v4.0: the old sidebar, in-page tabs and greys."
+about = [
+  "Legacy brings the Coolify v4.0 look back to the new Coolify (v4.5 and later): the v4.0 sidebar with the wordmark, search and team select, no top bar, the page heading with breadcrumbs and the Configuration, Deployments, Logs and Terminal tabs, and the v4.0 greys, buttons, inputs and sections.",
+  "Every value comes from Coolify's own source at v4.0.1. Coolify's own controls stay in the page, hidden, so all the logic is still Coolify's. If an update changes a page that the flavor does not know, Coolify's own page shows instead.",
+  "It runs on coolify.shadowarcanist.com as it ships. To use it on your own instance, change the @match line to the address of your Coolify.",
+]
+tags = ["dark", "classic", "layout"]
+screenshots = [
+  { file = "app-details.png", caption = "An application: breadcrumbs, tabs and the in-page menu" },
+  { file = "dashboard.png", caption = "The dashboard: every project and server, as in v4.0" },
+  { file = "backups.png", caption = "Settings, with the v4.0 tabs" },
+  { file = "docker-cleanup.png", caption = "A server's Docker cleanup page" },
+]
+
+[changelog."1.0.0"]
+date = "2026-10-26"
+tested = "v4.5.1"
+type = "added"
+text = "First release."

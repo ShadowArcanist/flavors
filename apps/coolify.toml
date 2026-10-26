@@ -1,0 +1,6 @@
+name = "Coolify"
+tagline = "The self-hosted PaaS"
+url = "https://coolify.io"
+# The app's colour on the site: its name, and its tile's glow. Lighter than the logo's #6b16ed, so
+# the name stays readable on the dark background.
+brand = "#8c52ff"
