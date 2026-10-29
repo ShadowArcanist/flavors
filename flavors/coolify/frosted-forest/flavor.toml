@@ -1,0 +1,21 @@
+name = "Frosted Forest"
+summary = "The new sections of Coolify as floating islands of frosted glass over a forest wallpaper, with a forest-green brand colour."
+about = [
+  "Frosted Forest puts a frosted wallpaper behind Coolify and turns each part of the page into its own floating island of frosted glass: the sidebar, the top bar, the content, each settings section, the page headings and the modals. The same gap separates all the islands, and all cards, tables and fields use one set of glass colours, in dark mode and in light mode.",
+  "It changes the look only: nothing moves, nothing is added, and Coolify's own pages and controls stay as they are. Coolify's purple becomes a forest green in every place that it shows, from buttons and links to focus rings and the active sidebar item. If you turn on Coolify's custom theme or its floating navigation, the flavor steps aside.",
+  "It runs on coolify.shadowarcanist.com as it ships. To use it on your own instance, change the @match line to the address of your Coolify. The wallpaper, its dim and blur, and the island gap and radius are settings at the top of the script.",
+]
+
+tags = ["dark", "light", "glass", "green"]
+screenshots = [
+  { file = "dashboard.png", caption = "The dashboard: projects, servers and recent deployments as glass islands" },
+  { file = "app-details.png", caption = "An application: each settings section is its own island" },
+  { file = "backups.png", caption = "Settings: the backup schedule and S3 storage" },
+  { file = "docker-cleanup.png", caption = "A server's Docker cleanup page, with the forest-green buttons" },
+]
+
+[changelog."1.0.0"]
+date = "2026-10-29"
+tested = "v4.5.3"
+type = "added"
+text = "First release."
