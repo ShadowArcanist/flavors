@@ -1,0 +1,20 @@
+name = "Arcana"
+summary = "A personal UI and UX experiment on top of Coolify: new pages, a new canvas, and frosted glass over a forest green."
+about = [
+  "Arcana is not only a new look. It is my personal UI and UX experiment on top of Coolify, not a preview of Coolify's own design: it adds things that Coolify does not have, and it moves parts of Coolify to new places. It puts the sidebar, the top bar and the content on frosted glass islands over a forest wallpaper, with a forest-green brand colour.",
+  "It has its own Dashboard, Projects and Servers pages, with recent activity and favourites. It draws a new resource canvas with a network view (which Coolify doesn't have), right-click menus and keyboard shortcuts. The sidebar opens its sections in place, and each server page shows the server's system details and live gauges for CPU, memory, disk and network.",
+  "It runs on coolify.shadowarcanist.com as it ships. To use it on your own instance, change the @match line to the address of your Coolify. Each part of Arcana, the wallpaper and the colours are settings at the top of the script.",
+]
+tags = ["dark", "glass", "green", "layout", "experimental"]
+screenshots = [
+  { file = "server.png", caption = "A server: its system details, and live gauges for CPU, memory, disk and network" },
+  { file = "dashboard-grid.png", caption = "The dashboard: favourite projects and servers, and recent activity" },
+  { file = "dashboard-table.png", caption = "The same dashboard as tables, with live server usage" },
+  { file = "projects.png", caption = "The Projects page: favourites first, with search, sort and a list view" },
+]
+
+[changelog."1.0.0"]
+date = "2026-10-29"
+tested = "v4.5.1"
+type = "added"
+text = "First release."
